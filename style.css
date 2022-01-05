@@ -54,6 +54,7 @@ h2{
     padding-left: 20px;
 
     box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid;
 }
 
 .third{
@@ -61,4 +62,24 @@ h2{
     background-repeat: no-repeat;
     background-position: left;
     
+    
+}
+#front-end{
+    border-left: 10px solid;
+
+    border-image: linear-gradient( blue, DarkCyan);
+    border-image-slice: 1;
+}
+
+#back-end{
+
+    border-left: 10px solid;
+
+    border-image: linear-gradient(Coral,DarkRed);
+    
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
